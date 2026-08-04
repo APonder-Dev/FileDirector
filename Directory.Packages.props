@@ -35,7 +35,7 @@
     <PackageVersion Include="FluentValidation" Version="11.11.0" />
 
     <!-- Configuration serialization -->
-    <PackageVersion Include="YamlDotNet" Version="16.2.1" />
+    <PackageVersion Include="YamlDotNet" Version="18.1.0" />
 
     <!-- Dependency injection / hosting -->
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
