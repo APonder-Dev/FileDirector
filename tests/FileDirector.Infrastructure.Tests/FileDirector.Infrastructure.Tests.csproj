@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="NSubstitute" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FileDirector.Infrastructure\FileDirector.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\FileDirector.Application\FileDirector.Application.csproj" />
+    <ProjectReference Include="..\..\src\FileDirector.Domain\FileDirector.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

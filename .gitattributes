@@ -1,0 +1,37 @@
+# Auto-detect text files, normalize to LF in the repo, checkout using the platform default.
+* text=auto eol=lf
+
+# Explicit text types
+*.cs text diff=csharp
+*.csproj text
+*.sln text eol=crlf
+*.props text
+*.targets text
+*.json text
+*.yml text
+*.yaml text
+*.md text
+*.axaml text
+*.editorconfig text
+*.gitignore text
+*.gitattributes text
+
+# Windows-specific scripts keep CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell scripts keep LF
+*.sh text eol=lf
+
+# Binary types — never diff/merge as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.db binary
+*.snk binary
+*.pfx binary

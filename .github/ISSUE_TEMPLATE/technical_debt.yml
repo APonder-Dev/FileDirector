@@ -1,0 +1,25 @@
+name: Technical debt
+description: Track refactoring, cleanup, or maintainability work that isn't a bug or a feature.
+title: "chore: "
+labels: ["tech-debt", "triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs to change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: risk
+    attributes:
+      label: Why does it matter?
+      description: Maintainability, safety, performance, or test-coverage impact of leaving it as-is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Affected areas
+      description: Projects/layers touched (Domain, Application, Infrastructure, Desktop, Cli, PluginSdk, tests, docs).

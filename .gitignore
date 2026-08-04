@@ -1,0 +1,65 @@
+## .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+*.dbmdl
+*.jfm
+*.sln.docstates
+
+## Test results
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+TestResults/
+
+## Rider
+*.DotSettings.user
+
+## FileDirector application data (never commit user data or local databases)
+*.db
+*.db-shm
+*.db-wal
+/appdata/
+/logs/
+/trash/
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Local Claude Code settings (machine-specific, not shared)
+.claude/settings.local.json
+
+## Secrets / local overrides
+*.local.json
+.env
+.env.*

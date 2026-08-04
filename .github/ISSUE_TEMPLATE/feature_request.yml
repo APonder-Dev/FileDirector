@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an enhancement or new capability for FileDirector.
+title: "feat: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What are you trying to do that FileDirector doesn't currently support?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Rule engine
+        - Operation planner / execution
+        - Duplicate detection
+        - Directory monitoring
+        - Desktop UI
+        - CLI
+        - Persistence / history
+        - Configuration
+        - Documentation
+        - Other
+    validations:
+      required: true

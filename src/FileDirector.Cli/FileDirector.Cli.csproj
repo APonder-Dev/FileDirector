@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FileDirector.Cli</RootNamespace>
+    <AssemblyName>filedirector</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" />
+    <PackageReference Include="Spectre.Console.Cli" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileDirector.Application\FileDirector.Application.csproj" />
+    <ProjectReference Include="..\FileDirector.Infrastructure\FileDirector.Infrastructure.csproj" />
+    <ProjectReference Include="..\FileDirector.Domain\FileDirector.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
