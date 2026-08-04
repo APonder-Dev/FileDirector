@@ -32,7 +32,7 @@
     <PackageVersion Include="Serilog.Settings.Configuration" Version="9.0.0" />
 
     <!-- Validation -->
-    <PackageVersion Include="FluentValidation" Version="11.11.0" />
+    <PackageVersion Include="FluentValidation" Version="12.1.1" />
 
     <!-- Configuration serialization -->
     <PackageVersion Include="YamlDotNet" Version="16.2.1" />
